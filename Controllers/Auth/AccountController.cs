@@ -223,7 +223,7 @@ namespace Employee.Controllers.Auth
                     count = totalUsers,
                     userList = usersWithRoles
                 };
-                return CustomResult("Data loaded successfully", userData, HttpStatusCode.OK);
+                return CustomResult("Data loaded successfully", userData , HttpStatusCode.OK);
                
             }
             catch (Exception ex)
